@@ -26,7 +26,6 @@ elif selection == "Silly":
 
 col1, col2, col3 = st.columns(3)
 
-if st.button('Give me an Image!'):
-    with col2:
-        st.write(text)
-        st.image(img)
+ with col2:
+    st.write(text)
+    st.image(img)
