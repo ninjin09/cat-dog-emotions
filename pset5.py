@@ -9,7 +9,7 @@ if choice == "Cat :cat:":
 elif choice == "Dog :dog:": 
     preference = 'dog'
 
-selection = st.selectbox('Select your current emotion:',("Happy", "Sad", "Angry", "Silly"),index=None)
+selection = st.selectbox('Select your current emotion:',("Happy", "Sad", "Angry", "Silly"), index=None)
 
 if selection == "Happy":
     text = "Keep up the good mood!"
