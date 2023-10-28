@@ -3,13 +3,13 @@ from PIL import Image
 
 st.title('How Are You Feeling Today?')
 
-choice = st.radio("Are You a Dog or a Cat Person?", ["Cat :cat:", "Dog :dog:"])
+choice = st.radio("Are You a Dog or a Cat Person?", ["Cat :cat:", "Dog :dog:"], index=None)
 if choice == "Cat :cat:":
     preference = 'cat'
 elif choice == "Dog :dog:": 
     preference = 'dog'
 
-selection = st.selectbox('Select your current emotion:',("Happy", "Sad", "Angry", "Silly"))
+selection = st.selectbox('Select your current emotion:',("Happy", "Sad", "Angry", "Silly"),index=None)
 
 if selection == "Happy":
     text = "Keep up the good mood!"
